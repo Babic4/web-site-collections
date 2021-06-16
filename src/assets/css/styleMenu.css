@@ -1,0 +1,56 @@
+.menu {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  display: flex;
+  width: 92%;
+  height: 93%;
+  font-size: 6vh;
+}
+
+/* .menu nav ul li:hover {
+    margin-left: 7vw;
+    z-index: 1;
+    position: absolute;
+    font-weight: 800;
+    font-size: 18vh;
+    color: #ff5e16;
+  } */
+
+.menu nav {
+  margin-top: 25vh;
+}
+
+.menu nav ul li {
+  cursor: url("/img/cursor2.png") 22 22, auto;
+  /* cursor: pointer; */
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  position: absolute;
+}
+
+.menu nav ul li:nth-child(2) {
+  margin-top: 8vh;
+}
+
+.menu nav ul li:nth-child(3) {
+  margin-top: 16vh;
+}
+
+.menu nav ul li:nth-child(4) {
+  margin-top: 24vh;
+}
+
+.menu nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* .not-active:hover {
+  margin-left: 7vw;
+  z-index: 1;
+  font-weight: 800;
+  font-size: 18vh;
+  color: #ff5e16;
+} */

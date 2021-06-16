@@ -1,0 +1,14 @@
+.info h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 5.5vh;
+  margin-bottom: 0;
+}
+
+.info p {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 3.1vh;
+  margin-top: 0;
+  text-align: justify;
+}

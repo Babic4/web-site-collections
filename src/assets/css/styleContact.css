@@ -1,0 +1,52 @@
+.messager-menu {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vh;
+}
+
+.messager-menu a {
+  /* cursor: pointer; */
+  color: #000;
+  text-decoration: none;
+  cursor: url("/img/cursor2.png") 22 22, auto;
+}
+
+.messager-menu a:hover {
+  color: #ff5e16;
+}
+
+.email {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vh;
+  cursor: url("/img/cursor2.png") 22 22, auto;
+  /* cursor: pointer; */
+  color: #000;
+  text-decoration: none;
+}
+
+.phone {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vh;
+}
+
+.map {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 4vh;
+  cursor: url("/img/cursor2.png") 22 22, auto;
+  /* cursor: pointer; */
+}
+
+.map > div {
+  margin-top: 1vh;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.yandex-map {
+  width: 100%;
+  height: 100%;
+}

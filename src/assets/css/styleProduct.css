@@ -1,0 +1,79 @@
+.slider {
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 80%;
+  /* background-color: khaki; */
+}
+
+.product-name {
+  height: 80%;
+  right: 12%;
+  top: 13%;
+  position: absolute;
+  z-index: 2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 12vh;
+  /* transform: rotate(90deg); */
+  writing-mode: vertical-lr;
+}
+
+.btn {
+  top: 40%;
+  position: absolute;
+  z-index: 2;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 13vh;
+  color: #ff5e16;
+  cursor: url("/img/cursor2.png") 22 22, auto;
+}
+
+.right {
+  right: 2%;
+}
+
+.left {
+  left: 2%;
+}
+
+.box-info {
+  left: 11%;
+  top: 52%;
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.product-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 12vh;
+}
+
+.sizes {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 4vh;
+}
+
+.pressed {
+  color: #ff5e16;
+}
+
+.btn-add {
+  margin-top: 5vh;
+  margin-left: 10vw;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 6vh;
+  cursor: url("/img/cursor2.png") 22 22, auto;
+}
